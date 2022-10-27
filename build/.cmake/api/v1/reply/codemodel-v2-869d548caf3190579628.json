@@ -967,7 +967,7 @@
 				{
 					"directoryIndex" : 43,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Release-b02174ed38d769481c15.json",
+					"jsonFile" : "target-bs2_default-Release-09c19e2dafa6a40789bf.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -988,7 +988,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "keyer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-keyer-Release-65cdac10a4f48f1d5088.json",
+					"jsonFile" : "target-keyer-Release-374fae98d86cf1d1d540.json",
 					"name" : "keyer",
 					"projectIndex" : 0
 				}
@@ -998,8 +998,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/pi/pico/PicoKeyer/build",
-		"source" : "/home/pi/pico/PicoKeyer"
+		"build" : "/home/pi/src/PicoKeyerIambic/build",
+		"source" : "/home/pi/src/PicoKeyerIambic"
 	},
 	"version" : 
 	{

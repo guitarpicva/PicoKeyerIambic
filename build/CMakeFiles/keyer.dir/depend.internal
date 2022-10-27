@@ -959,8 +959,6 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  /home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/keyer.dir/keyer.cpp.obj
- /home/pi/pico/PicoKeyer/alphabet.h
- /home/pi/pico/PicoKeyer/keyer.cpp
  /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -994,5 +992,7 @@ CMakeFiles/keyer.dir/keyer.cpp.obj
  /home/pi/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ /home/pi/src/PicoKeyerIambic/alphabet.h
+ /home/pi/src/PicoKeyerIambic/keyer.cpp
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h

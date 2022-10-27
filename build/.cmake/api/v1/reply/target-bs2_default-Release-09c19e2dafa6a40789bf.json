@@ -131,7 +131,7 @@
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/pi/pico/PicoKeyer/build/generated/pico_base"
+					"path" : "/home/pi/src/PicoKeyerIambic/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 8,

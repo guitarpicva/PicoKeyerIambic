@@ -135,7 +135,6 @@ void loop() {
           //b_keyit = false;
           // END TEST ONLY
           if(b_keyit) {
-            printf("keyit\n");
             // iambic keying only needs to send a high for a short duration to tell 
             // the radio's keyer to send a dot or dash
             if(kc == '.') {

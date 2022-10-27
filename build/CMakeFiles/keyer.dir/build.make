@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/pico/PicoKeyer
+CMAKE_SOURCE_DIR = /home/pi/src/PicoKeyerIambic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/pico/PicoKeyer/build
+CMAKE_BINARY_DIR = /home/pi/src/PicoKeyerIambic/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/keyer.dir/depend.make
@@ -78,20 +78,20 @@ include CMakeFiles/keyer.dir/flags.make
 
 CMakeFiles/keyer.dir/keyer.cpp.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/keyer.cpp.obj: ../keyer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/keyer.dir/keyer.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/keyer.dir/keyer.cpp.obj -c /home/pi/pico/PicoKeyer/keyer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/keyer.dir/keyer.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/keyer.dir/keyer.cpp.obj -c /home/pi/src/PicoKeyerIambic/keyer.cpp
 
 CMakeFiles/keyer.dir/keyer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/keyer.dir/keyer.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/pico/PicoKeyer/keyer.cpp > CMakeFiles/keyer.dir/keyer.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/src/PicoKeyerIambic/keyer.cpp > CMakeFiles/keyer.dir/keyer.cpp.i
 
 CMakeFiles/keyer.dir/keyer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/keyer.dir/keyer.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/pico/PicoKeyer/keyer.cpp -o CMakeFiles/keyer.dir/keyer.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/src/PicoKeyerIambic/keyer.cpp -o CMakeFiles/keyer.dir/keyer.cpp.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -104,7 +104,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -117,7 +117,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -130,7 +130,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -143,7 +143,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -169,12 +169,12 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: 
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/pi/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -187,7 +187,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_f
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -200,7 +200,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/pi/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -213,7 +213,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -226,7 +226,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -239,7 +239,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/pi/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -252,7 +252,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/datetime.c.s: cm
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/pi/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -265,7 +265,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/pi/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -278,7 +278,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -291,7 +291,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -304,7 +304,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/common/pico_sync/critical_section
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -317,12 +317,12 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -335,7 +335,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -348,7 +348,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -361,7 +361,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: 
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -374,7 +374,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -387,7 +387,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watc
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -400,7 +400,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -413,12 +413,12 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -431,17 +431,17 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -454,7 +454,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_ini
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -467,22 +467,22 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_mat
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -495,7 +495,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -508,12 +508,12 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_math.
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -526,17 +526,17 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mallo
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -549,7 +549,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -562,7 +562,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/bin
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -575,7 +575,7 @@ CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: 
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/keyer.dir/flags.make
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -687,13 +687,13 @@ keyer.elf: CMakeFiles/keyer.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_
 keyer.elf: CMakeFiles/keyer.dir/build.make
 keyer.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 keyer.elf: CMakeFiles/keyer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/pico/PicoKeyer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable keyer.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/src/PicoKeyerIambic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable keyer.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/keyer.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/pi/pico/PicoKeyer/build/keyer.elf keyer.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/pi/pico/PicoKeyer/build/keyer.elf keyer.bin
-	/usr/bin/arm-none-eabi-objdump -h /home/pi/pico/PicoKeyer/build/keyer.elf >keyer.dis
-	/usr/bin/arm-none-eabi-objdump -d /home/pi/pico/PicoKeyer/build/keyer.elf >>keyer.dis
-	elf2uf2/elf2uf2 /home/pi/pico/PicoKeyer/build/keyer.elf keyer.uf2
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/pi/src/PicoKeyerIambic/build/keyer.elf keyer.hex
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/pi/src/PicoKeyerIambic/build/keyer.elf keyer.bin
+	/usr/bin/arm-none-eabi-objdump -h /home/pi/src/PicoKeyerIambic/build/keyer.elf >keyer.dis
+	/usr/bin/arm-none-eabi-objdump -d /home/pi/src/PicoKeyerIambic/build/keyer.elf >>keyer.dis
+	elf2uf2/elf2uf2 /home/pi/src/PicoKeyerIambic/build/keyer.elf keyer.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/keyer.dir/build: keyer.elf
@@ -705,6 +705,6 @@ CMakeFiles/keyer.dir/clean:
 .PHONY : CMakeFiles/keyer.dir/clean
 
 CMakeFiles/keyer.dir/depend:
-	cd /home/pi/pico/PicoKeyer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/pico/PicoKeyer /home/pi/pico/PicoKeyer /home/pi/pico/PicoKeyer/build /home/pi/pico/PicoKeyer/build /home/pi/pico/PicoKeyer/build/CMakeFiles/keyer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/src/PicoKeyerIambic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/src/PicoKeyerIambic /home/pi/src/PicoKeyerIambic /home/pi/src/PicoKeyerIambic/build /home/pi/src/PicoKeyerIambic/build /home/pi/src/PicoKeyerIambic/build/CMakeFiles/keyer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/keyer.dir/depend
 

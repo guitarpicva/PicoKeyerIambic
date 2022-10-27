@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pi/pico/PicoKeyer/build/pico-sdk/tools/cmake_install.cmake")
-  include("/home/pi/pico/PicoKeyer/build/pico-sdk/src/cmake_install.cmake")
-  include("/home/pi/pico/PicoKeyer/build/pico-sdk/docs/cmake_install.cmake")
+  include("/home/pi/src/PicoKeyerIambic/build/pico-sdk/tools/cmake_install.cmake")
+  include("/home/pi/src/PicoKeyerIambic/build/pico-sdk/src/cmake_install.cmake")
+  include("/home/pi/src/PicoKeyerIambic/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

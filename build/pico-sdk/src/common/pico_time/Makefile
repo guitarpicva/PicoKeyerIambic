@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/pico/PicoKeyer
+CMAKE_SOURCE_DIR = /home/pi/src/PicoKeyerIambic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/pico/PicoKeyer/build
+CMAKE_BINARY_DIR = /home/pi/src/PicoKeyerIambic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/pico/PicoKeyer/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/pico/PicoKeyer/build/CMakeFiles /home/pi/pico/PicoKeyer/build/pico-sdk/src/common/pico_time//CMakeFiles/progress.marks
-	cd /home/pi/pico/PicoKeyer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/pico/PicoKeyer/build/CMakeFiles 0
+	cd /home/pi/src/PicoKeyerIambic/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/src/PicoKeyerIambic/build/CMakeFiles /home/pi/src/PicoKeyerIambic/build/pico-sdk/src/common/pico_time//CMakeFiles/progress.marks
+	cd /home/pi/src/PicoKeyerIambic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/src/PicoKeyerIambic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/pico/PicoKeyer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/clean
+	cd /home/pi/src/PicoKeyerIambic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,17 +116,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/pico/PicoKeyer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/preinstall
+	cd /home/pi/src/PicoKeyerIambic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/pico/PicoKeyer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/preinstall
+	cd /home/pi/src/PicoKeyerIambic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_time/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/pico/PicoKeyer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/src/PicoKeyerIambic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -148,6 +148,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/pico/PicoKeyer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/src/PicoKeyerIambic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

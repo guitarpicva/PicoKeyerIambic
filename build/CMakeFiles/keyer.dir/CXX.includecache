@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/pico/PicoKeyer/alphabet.h
-
-/home/pi/pico/PicoKeyer/keyer.cpp
-stdio.h
--
-cstring
--
-cstdlib
--
-pico/stdlib.h
-/home/pi/pico/PicoKeyer/pico/stdlib.h
-hardware/uart.h
-/home/pi/pico/PicoKeyer/hardware/uart.h
-hardware/gpio.h
-/home/pi/pico/PicoKeyer/hardware/gpio.h
-queue
--
-alphabet.h
-/home/pi/pico/PicoKeyer/alphabet.h
-
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
 
 /home/pi/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -213,6 +193,26 @@ pico/stdio.h
 /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/pico/stdio.h
 hardware/uart.h
 /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/hardware/uart.h
+
+/home/pi/src/PicoKeyerIambic/alphabet.h
+
+/home/pi/src/PicoKeyerIambic/keyer.cpp
+stdio.h
+-
+cstring
+-
+cstdlib
+-
+pico/stdlib.h
+/home/pi/src/PicoKeyerIambic/pico/stdlib.h
+hardware/uart.h
+/home/pi/src/PicoKeyerIambic/hardware/uart.h
+hardware/gpio.h
+/home/pi/src/PicoKeyerIambic/hardware/gpio.h
+queue
+-
+alphabet.h
+/home/pi/src/PicoKeyerIambic/alphabet.h
 
 generated/pico_base/pico/config_autogen.h
 /home/pi/pico/pico-sdk/src/boards/include/boards/pico.h
