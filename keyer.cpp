@@ -25,7 +25,8 @@
 // keyer GPIO pin
 // change KEYER to a GPIO pin number to use as a 
 // radio/oscillator keyer
-#define KEYER 6u // physical pin 9 on the Pico
+#define KEYER_DOT 6u // physical pin 9 on the Pico
+#define KEYER_DASH 7u // physical pin 10 on the Pico
 // to test the code, we just use the on-board Pico LED
 const uint LED = PICO_DEFAULT_LED_PIN;
 // Morse standard timings, we'll set dit to determine the speed
@@ -112,8 +113,8 @@ void loop() {
         }
         // one string of dits and dahs makes ONE character          
         j = 0; // index in keystr
-        kc = keystr[j]; // DIT or DAH
-        while (kc != 0x00) { 
+        kc = keystr[j]; // DOT or DASH
+        /*while (kc != 0x00) { 
           if(b_keyit) gpio_put(KEYER, 1); // key on
           gpio_put(LED, 1);
           if(kc == '.') {
@@ -127,7 +128,46 @@ void loop() {
           sleep_ms(dit); // intra-key delay
           j++;
           kc = keystr[j];
+        }*/
+
+        while(kc != 0x00) {
+          // TEST ONLY
+          //b_keyit = false;
+          // END TEST ONLY
+          if(b_keyit) {
+            printf("keyit\n");
+            // iambic keying only needs to send a high for a short duration to tell 
+            // the radio's keyer to send a dot or dash
+            if(kc == '.') {
+              // send dot pulse
+              gpio_put(KEYER_DOT, 1);
+              sleep_ms(20);
+              gpio_put(KEYER_DOT, 0);
+            }
+            else {
+              // send dash pulse
+              gpio_put(KEYER_DASH, 1);
+              sleep_ms(20);
+              gpio_put(KEYER_DASH, 0);
+            }
+          }
+          else {
+            // only flash the LED
+            gpio_put(LED, 1);
+            if(kc == '.') {
+              sleep_ms(dit); // a DIT length
+            }
+            else {
+              sleep_ms(dit * 3); // DAH is 3 dit lengths
+            }
+            gpio_put(LED, 0);
+            sleep_ms(dit); // intra-key delay
+          }
+          j++;
+          kc = keystr[j];
         }
+
+        // do we need this??
         sleep_ms(dit * 3); // wait 3 dit lengths between characters        
       }      
     }   
@@ -155,14 +195,17 @@ int main() {
     
     //while(!stdio_usb_connected) {;}
     // initialize GPIO as the output pin
-    gpio_init(KEYER); // sets GPIO function to SIO
+    gpio_init(KEYER_DOT); // sets GPIO function to SIO
+    gpio_init(KEYER_DASH); // sets GPIO function to SIO
     gpio_init(LED);
     // set mode to OUTPUT
-    gpio_set_dir(KEYER, GPIO_OUT);
+    gpio_set_dir(KEYER_DOT, GPIO_OUT);
+    gpio_set_dir(KEYER_DASH, GPIO_OUT);
     gpio_set_dir(LED, GPIO_OUT);
     // set pull-ups to avoid float keying
-    // and always leave the GPIO pin in low state when finished
-    gpio_set_pulls(KEYER, true, true);
+    // and always leave the GPIO pins in low state when finished
+    gpio_set_pulls(KEYER_DOT, true, true);
+    gpio_set_pulls(KEYER_DASH, true, true);
 
     // send the letter "R" on power up
     gpio_put(LED, 1); // one flash at start so set to ON
