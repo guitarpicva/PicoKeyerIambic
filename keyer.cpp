@@ -140,13 +140,13 @@ void loop() {
             if(kc == '.') {
               // send dot pulse
               gpio_put(KEYER_DOT, 1);
-              sleep_ms(20);
+              sleep_ms(dit);
               gpio_put(KEYER_DOT, 0);
             }
             else {
               // send dash pulse
               gpio_put(KEYER_DASH, 1);
-              sleep_ms(20);
+              sleep_ms(dit * 3);
               gpio_put(KEYER_DASH, 0);
             }
           }
