@@ -1,8 +1,8 @@
 Copyright 2022 GrizzWorks, LLC - All Rights Reserved
+# THIS CODE IS NOT READY FOR USE!  IT CURRENTLY FUNCTIONS AS A COOTIE!
+Pico Keyer Iambic
 
-Pico Keyer
-
-PicoKeyer is shared in the hope that it will be useful,
+Pico Keyer Iambic is shared in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
